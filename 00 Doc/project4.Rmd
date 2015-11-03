@@ -28,7 +28,7 @@ Below is another visualization of a subset of the data. For this visualization, 
 
 
 #### Tableau Bar Graph:
-Below is a visualization of a subset of the data. We thought it would be insightful to see how the variables changed over the time period between 2000 and 2012. As The faceted graph shows, there is a trickling of data points, representing countries, from the lower end of the graph to the upper end of the graph showing that literacy rates were improving through the years. It was surprising however to see that percentage of GDP spent on education seemed to play little role in the improvement of youth literacy rates over the years.
+Below is our third visualizations of the data. We wanted do see a Bar Chart of the Vehicule Manufacturer vs Sum of Horsepower, and see how car models compared with competitors in most Horsepower in their fleet. We added a trendline as well so we can see which models produced more total Horsepower in their cars. Finally we labeled each bar with the average Horsepower for a car with their model. Our Data showed that while BMW had the largest fleet with the most total Horsepower, Lamborghini had the highest average Horsepower rating per car.
 
 ![](../02 Tableau/Sheet3.png)
 
