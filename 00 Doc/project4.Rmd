@@ -1,0 +1,34 @@
+---
+title: "Project 4: Visual Analysis of Vehicle Testing"
+output: html_document
+---
+
+
+#### This html page, produced by creating an R markdown document, and using KnitR to knit the file into html. The purpose of this html file, is to show our analysis of our data set in Tableau. The data set is test car information including, horse power, emissions, engine size, and safety ratings . This html also shows the steps required to reproduce our findings, given the same data. Given the variables in our data set, we were able to query the data base in a few different ways and use Tableau to create visualizations to better analyze the data. The tableau graphs, are then saved as images and inserted into this html through the .rmd file.
+
+
+
+
+
+
+#### Tableau Scatter Plot:
+Below is our first visualization of a subset of the data. The graph is a scatter plot showing horse power on the x-axis and CO2 emissions on the y-axis. As expected there is a positive correlation between the two measure variables. The visualization shows a trend of increased carbon dioxide emissions with increases in horesepower. The colors represent different vehicle types.
+
+![](../02 Tableau/Sheet1.png) 
+
+
+
+
+#### Tableau Cross-tab:
+Below is another visualization of a subset of the data. For this visualization, we wanted to observe a cross tab of vehicle types, car makes, and the calculated engine efficiency of the vehicles. Engine efficiency was calculated by dividing the horsepower by the engine displacement, or size of the engine in Liters. Parameters were set for high and low engine efficiency and used to compare all of the vehicles in the cross-tab.
+
+![](../02 Tableau/Sheet2.png)
+
+
+
+
+#### Tableau Bar Graph:
+Below is a visualization of a subset of the data. We thought it would be insightful to see how the variables changed over the time period between 2000 and 2012. As The faceted graph shows, there is a trickling of data points, representing countries, from the lower end of the graph to the upper end of the graph showing that literacy rates were improving through the years. It was surprising however to see that percentage of GDP spent on education seemed to play little role in the improvement of youth literacy rates over the years.
+
+![](../02 Tableau/Sheet3.png)
+
