@@ -1,7 +1,7 @@
 ---
 title: 'Project 5: Blending and Visualizations with R and Tableau'
 output: html_document
---- 
+---  
 
 #### This html page, produced by creating an R markdown document, and using KnitR to knit the file into html. The purpose of this html file, is to show our analysis of our data set in Tableau and R Studio. The data set is test car information including, horse power, emissions, engine size, and safety ratings . This data was blended with a second data set that has additional information about 2016 cars. This html also shows the steps required to reproduce our findings, given the same data. Given the variables in our data set, we were able to query the data base in a few different ways and use Tableau to create visualizations to better analyze the data. The tableau graphs, are then saved as images and inserted into this html through the .rmd file.
 
@@ -44,8 +44,8 @@ The below visualization was done by blending our two data sets, since both data 
 #### R Studio Blend Visualization :
 This is a reproduction of the above Visualization done Using R studio to blend and visualize the data.
 
-```{r}
-source("../03 R SQL Visualizations/blended.R", echo = TRUE)
-```
+# ```{r}
+# source("../03 R SQL Visualizations/blended.R", echo = TRUE)
+# ```
 
 
