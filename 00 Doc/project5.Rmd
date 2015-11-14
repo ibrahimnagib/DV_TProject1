@@ -25,9 +25,7 @@ source("../03 R SQL Visualizations/scatter.R", echo = TRUE)
 #### Project 4 Bar Chart (R):
 Below is a visualization of a subset of the data. We thought it would be insightful to see how the variables changed over the time period between 2000 and 2012. As The faceted graph shows, there is a trickling of data points, representing countries, from the lower end of the graph to the upper end of the graph showing that literacy rates were improving through the years. It was surprising however to see that percentage of GDP spent on education seemed to play little role in the improvement of youth literacy rates over the years. This is similar to the visualization made for the previous project in Tableay, but made in R studio.
 
-# ```{r}
-# source("../03 R SQL Visualizations/bar-chart.R", echo = TRUE)
-# ```
+![](../03 R SQL Visualizations/Rplot.png) 
 
 #### Project 4 Cross-Tab (R):
 Below is another visualization of a subset of the data. For this visualization, we wanted to observe a cross tab of vehicle types, car makes, and the calculated engine efficiency of the vehicles. Engine efficiency was calculated by dividing the horsepower by the engine displacement, or size of the engine in Liters. Parameters were set for high and low engine efficiency and used to compare all of the vehicles in the cross-tab. This is similar to the visualization made for the previous project in Tableay, but made in R studio.
@@ -40,6 +38,12 @@ source("../03 R SQL Visualizations/cross-tab.R", echo = TRUE)
 #### Tableau Blend Visualization :
 The below visualization was done by blending our two data sets, since both data sets have similarites such as vehicle manufacturer, the two sets were easily blended and produced some expected results when we compared rated horsepower of cars from one data set, to the fuel efficiency in the other data set. As the visualization shows, the relationship is inverse; the greater the horsepower, the lower the fuel efficiency.
 
+![](../02 Tableau/Blended.png) 
+
+#### Tableau Blend Visualization 2 :
+With the data sets blended, we also decided to visuaize carbon dioxide emissions vs fuel efficiency in cars. We suspected that higher fuel efficiency vehicles would have less carbon dioxide emission, showing another negative correlation in the visualization.
+
+![](../02 Tableau/blended2.png) 
 
 #### R Studio Blend Visualization :
 This is a reproduction of the above Visualization done Using R studio to blend and visualize the data.
